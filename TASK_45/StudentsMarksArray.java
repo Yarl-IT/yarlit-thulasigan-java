@@ -10,12 +10,12 @@ class StudentsMarksArray{
 		
 		while(x<n_subjects){
 			System.out.print("Enter the marks for subject "+(x+1)+": ");
-			int mark=scan.nextInt();
-			if((mark>100)||(mark<0)){
+			marks[x]=scan.nextInt();
+			if((marks[x]>100)||(marks[x]<0)){
 				System.out.println("Invalid marks. Please try again.");
 				continue;
 			}else{
-				total=total+mark;
+				total=total+marks[x];
 			}
 				x++;
 		}
