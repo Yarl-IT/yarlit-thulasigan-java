@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class electricity_bill{
+class ElectricityBill{
 	public static void main(String args[]){
 		Scanner scan=new Scanner(System.in);
 		System.out.print("Enter your Electricity units: ");
